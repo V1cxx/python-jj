@@ -1,4 +1,4 @@
-from cgitb import text
+from ast import While
 from time import sleep
 from tkinter import N
 
@@ -103,19 +103,17 @@ while True:
         print(f'\nO resultado da potência é {poten:,.1f}\n\n')
 
         sleep(4)
+    break
 
-        break
-continue
-
-    while True:
-        if inicio == '7':
-                print("\tOpção escolhida: 'Funções trigonométricas'\n")
+while inicio:
+    if inicio == '7':
+        print("\tOpção escolhida: 'Funções trigonométricas'\n")
             
-                print("Escolha uma das opções:")
-                trigon = input("Para calcular seno: '1'\n"
-                                    "Para calcular cosseno: '2'\n"
-                                    "Para calcular tangente: '3'\n"
-                                    "Para cancelar esta ação: 'n'n")
+        print("Escolha uma das opções:")
+        trigon  = (input("Para calcular seno: '1'\n"
+                   "Para calcular cosseno: '2'\n"
+                   "Para calcular tangente: '3'\n"
+                   "Para cancelar esta ação: 'n'\n"))
 
         
 
