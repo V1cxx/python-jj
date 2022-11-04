@@ -453,12 +453,12 @@ while True:
                     if b == 'r':
                         print("\t ÁREA DO RETÂNGULO: ")
 
-                        import maht
+                        import math
 
                         a = input("Digite o lado a do retângulo: ")
                         b = input("Digite o lado b do retângulo: ")
 
-                        resp = float(A) * float(b)
+                        resp = float(a) * float(b)
                         print("A ÁREA DO RETÂNGULO É:",resp)
 
 
@@ -785,7 +785,7 @@ while True:
 
                         resp = float(c) / 1000000
                         print("A MASSA EM T É:",resp)
-                        berak
+                        break
 
 
                     if a == '8':
